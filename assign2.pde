@@ -43,7 +43,7 @@ void setup() {
   groundhogLeft = loadImage("img/groundhogLeft.png");
   groundhogRight = loadImage("img/groundhogRight.png");
   //Game Lose
-  gameOver = loadImage("img/gameOver.jpg"); 
+  gameOver = loadImage("img/gameover.jpg"); 
   restartHovered = loadImage("img/restartHovered.png"); 
   restartNormal = loadImage("img/restartNormal.png"); 
   //soldier
