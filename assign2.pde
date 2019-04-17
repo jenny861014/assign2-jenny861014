@@ -43,7 +43,7 @@ void setup() {
   groundhogLeft = loadImage("img/groundhogLeft.png");
   groundhogRight = loadImage("img/groundhogRight.png");
   //Game Lose
-  gameOver = loadImage("img/gameover.jpg"); 
+  gameOver = loadImage("img/gameOver.jpg"); 
   restartHovered = loadImage("img/restartHovered.png"); 
   restartNormal = loadImage("img/restartNormal.png"); 
   //soldier
@@ -138,8 +138,7 @@ void draw() {
           life2X=80;
           groundhogIdleX = 320;
           groundhogIdleY = 80;
-	  soldierX = 0; 
-          soldierY = floor(random(2,6))*80;
+          soldierX = -80; 
           soldierY = floor(random(2,6))*80;
           cabbageX =floor(random(0,8))*80;
           cabbageY=floor(random(2,6))*80;
